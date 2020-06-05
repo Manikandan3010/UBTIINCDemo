@@ -1,0 +1,159 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 37,
+        "name": "Verify the Registration Form",
+        "description": "",
+        "id": "login-functionality;verify-the-registration-form;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16847424400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User is on Homepage of the application",
+            "match": {
+              "location": "HomePageSteps.verifyuserisonHomepageofapplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3728712200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User navigates to login page",
+            "match": {
+              "location": "HomePageSteps.verifyUserIsonLoginPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 68000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Verify user on login page",
+            "match": {
+              "location": "HomePageSteps.verifyuseronLoginPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9711291000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User logs in with \"Test@gmail.com\" and \"\u003cpassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Test@gmail.com",
+                  "offset": 19
+                },
+                {
+                  "val": "\u003cpassword\u003e",
+                  "offset": 40
+                }
+              ],
+              "location": "HomePageSteps.userloginwithvalidusername(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1692498900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Click on Registration link",
+            "match": {
+              "location": "RegistrationPageSteps.verifyuserisonHomepageofapplication()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5017768000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Verify the Title",
+            "match": {
+              "location": "RegistrationPageSteps.verifytheTitle()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8145753400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Fill the registration form",
+            "match": {
+              "location": "RegistrationPageSteps.fillregistrationform()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 596217431200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Submit the Form",
+            "match": {
+              "location": "RegistrationPageSteps.submittheform()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 553256400,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Close the browser",
+            "match": {
+              "location": "HomePageSteps.closebrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 22,
+            "name": "@RegistrationForm"
+          },
+          {
+            "line": 1,
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@login"
+      }
+    ]
+  }
+]

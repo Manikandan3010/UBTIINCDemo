@@ -1,0 +1,28 @@
+@login
+Feature: Login Functionality
+
+  @RegistrationForm
+  Scenario Outline: Verify the Registration Form        [90m# login.feature:23[0m
+    [36mGiven [0m[36mUser is on Homepage of the application[0m
+    [36mWhen [0m[36mUser navigates to login page[0m
+    [36mThen [0m[36mVerify user on login page[0m
+    [36mWhen [0m[36mUser logs in with "<emailId>" and "<password>"[0m
+    [36mGiven [0m[36mClick on Registration link[0m
+    [36mAnd [0m[36mVerify the Title[0m
+    [36mThen [0m[36mFill the registration form[0m
+    [36mAnd [0m[36mSubmit the Form[0m
+    [36mThen [0m[36mClose the browser[0m
+
+    Examples: 
+
+  @RegistrationForm @login
+  Scenario Outline: Verify the Registration Form             [90m# login.feature:37[0m
+    [32mGiven [0m[32mUser is on Homepage of the application[0m             [90m# HomePageSteps.verifyuserisonHomepageofapplication()[0m
+    [32mWhen [0m[32mUser navigates to login page[0m                        [90m# HomePageSteps.verifyUserIsonLoginPage()[0m
+    [32mThen [0m[32mVerify user on login page[0m                           [90m# HomePageSteps.verifyuseronLoginPage()[0m
+    [32mWhen [0m[32mUser logs in with "[0m[32m[1mTest@gmail.com[0m[32m" and "[0m[32m[1m<password>[0m[32m"[0m [90m# HomePageSteps.userloginwithvalidusername(String,String)[0m
+    [32mGiven [0m[32mClick on Registration link[0m                         [90m# RegistrationPageSteps.verifyuserisonHomepageofapplication()[0m
+    [32mAnd [0m[32mVerify the Title[0m                                     [90m# RegistrationPageSteps.verifytheTitle()[0m
+    [32mThen [0m[32mFill the registration form[0m                          [90m# RegistrationPageSteps.fillregistrationform()[0m
+    [32mAnd [0m[32mSubmit the Form[0m                                      [90m# RegistrationPageSteps.submittheform()[0m
+    [32mThen [0m[32mClose the browser[0m                                   [90m# HomePageSteps.closebrowser()[0m

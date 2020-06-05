@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="641.914203">
+<testcase classname="Login Functionality" name="Verify the Registration Form" time="641.914203">
+<system-out><![CDATA[Given User is on Homepage of the application................................passed
+When User navigates to login page...........................................passed
+Then Verify user on login page..............................................passed
+When User logs in with "Test@gmail.com" and "<password>"....................passed
+Given Click on Registration link............................................passed
+And Verify the Title........................................................passed
+Then Fill the registration form.............................................passed
+And Submit the Form.........................................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

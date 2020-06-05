@@ -1,0 +1,164 @@
+[
+  {
+    "source": "^Verify the Title$",
+    "steps": [
+      {
+        "name": "Verify the Title",
+        "aggregatedDurations": {
+          "average": 5.017768,
+          "median": 5.017768
+        },
+        "durations": [
+          {
+            "duration": 5.017768,
+            "location": "login.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User logs in with \"([^\"]*)\" and \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "User logs in with \"Test@gmail.com\" and \"\u003cpassword\u003e\"",
+        "aggregatedDurations": {
+          "average": 9.711291,
+          "median": 9.711291
+        },
+        "durations": [
+          {
+            "duration": 9.711291,
+            "location": "login.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Verify user on login page$",
+    "steps": [
+      {
+        "name": "Verify user on login page",
+        "aggregatedDurations": {
+          "average": 0.000068,
+          "median": 0.000068
+        },
+        "durations": [
+          {
+            "duration": 0.000068,
+            "location": "login.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Fill the registration form$",
+    "steps": [
+      {
+        "name": "Fill the registration form",
+        "aggregatedDurations": {
+          "average": 8.1457534,
+          "median": 8.1457534
+        },
+        "durations": [
+          {
+            "duration": 8.1457534,
+            "location": "login.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on Registration link$",
+    "steps": [
+      {
+        "name": "Click on Registration link",
+        "aggregatedDurations": {
+          "average": 1.6924989,
+          "median": 1.6924989
+        },
+        "durations": [
+          {
+            "duration": 1.6924989,
+            "location": "login.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User is on Homepage of the application$",
+    "steps": [
+      {
+        "name": "User is on Homepage of the application",
+        "aggregatedDurations": {
+          "average": 16.8474244,
+          "median": 16.8474244
+        },
+        "durations": [
+          {
+            "duration": 16.8474244,
+            "location": "login.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User navigates to login page$",
+    "steps": [
+      {
+        "name": "User navigates to login page",
+        "aggregatedDurations": {
+          "average": 3.7287122,
+          "median": 3.7287122
+        },
+        "durations": [
+          {
+            "duration": 3.7287122,
+            "location": "login.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Submit the Form$",
+    "steps": [
+      {
+        "name": "Submit the Form",
+        "aggregatedDurations": {
+          "average": 596.2174312,
+          "median": 596.2174312
+        },
+        "durations": [
+          {
+            "duration": 596.2174312,
+            "location": "login.feature:31"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Close the browser$",
+    "steps": [
+      {
+        "name": "Close the browser",
+        "aggregatedDurations": {
+          "average": 0.5532564,
+          "median": 0.5532564
+        },
+        "durations": [
+          {
+            "duration": 0.5532564,
+            "location": "login.feature:32"
+          }
+        ]
+      }
+    ]
+  }
+]
